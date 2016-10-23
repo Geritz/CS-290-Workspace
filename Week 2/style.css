@@ -1,0 +1,59 @@
+/************************************************* 
+Author: Spencer Moran
+Class: CS 290
+Date: 10/4/2016
+Description: HTML Page for HTML/CSS assignment
+Dependencies: none 
+**************************************************/
+
+table {
+    border:3px double black;
+}
+
+th {
+    border:1px solid black;
+}
+
+td {
+    border:1px solid black;
+}
+
+tbody tr {
+    background-color:lightgreen
+}
+
+tbody tr:nth-of-type(2n+0) {
+    background-color:lightblue
+}
+
+tbody tr td:first-child {
+    font-style:italic;
+}
+
+.outer-content {
+    background-color: pink;
+    width: 75%;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    
+}
+
+.inner-content {
+    background-color: lightblue;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.input-field {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+p {
+    padding: 0px;
+    text-align:left;
+    margin: 0px;
+}

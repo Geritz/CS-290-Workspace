@@ -1,0 +1,175 @@
+<!-- -------------------------------------------
+Author: Spencer Moran
+Class: CS 290
+Date: 10/4/2016
+Description: HTML Page for HTML/CSS assignment
+Dependencies: style.css
+----------------------------------------------->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Spencer Moran- HTML/CSS ASSIGNMENT</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <!-- Table Section -->
+    <table>
+      <caption>Ultimate Showdown Contenders and Results</caption>
+        <thead>
+            <th></th>
+            <th>Godzilla</th>
+            <th>Batman</th>
+            <th>Mr. Rogers</th>
+            <th>Chuck Norris</th>
+            <th>Abe Lincoln</th>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Godzilla</td>
+                <td>Tokyo Loses</td>
+                <td>Bat pancake</td>
+                <td>Godzilla Burgers</td>
+                <td>Draw</td>
+                <td>Unknown</td>
+            <tr>
+                <td>Batman</td>
+                <td>Bat pancake</td>
+                <td>Draw</td>
+                <td>Epic Loss</td>
+                <td>Draw</td>
+                <td>Win</td>
+            <tr>
+                <td>Mr. Rogers</td>
+                <td>Mr</td>
+                <td>Rodgers</td>
+                <td>Will</td>
+                <td>Always</td>
+                <td>Win</td>
+            <tr>
+                <td>Chuck Norris</td>
+                <td>Draw</td>
+                <td>Draw</td>
+                <td>Loss</td>
+                <td>Draw</td>
+                <td>Draw</td>
+            <tr>
+                <td>Abe Lincoln</td>
+                <td>Unknown</td>
+                <td>Loss</td>
+                <td>Loss</td>
+                <td>Draw</td>
+                <td>Loss</td> 
+        </tbody>
+        <tfoot>
+            <td colspan="2">footer 1</td>
+            <td colspan="4">footer 2</td>
+        </tfoot>
+    </table>
+      
+      
+    <!-- List section -->
+    <ul>
+            <li>first item<ul>
+                <li>sublist item 1</li>
+                <li>sublist item 2</li>
+                <li>sublist item 3</li></ul>
+                </li>
+            <li>second item<ul>
+                <li>sublist item 4</li>
+                <li>sublist item 5</li>
+                <li>sublist item 6</li></ul></li>
+            <li>third item<ol>
+                <li>sublist item 7</li>
+                <li>sublist item 8</li>
+                <li>sublist item 9</li></ol>
+                </li>
+    </ul>
+      
+      <!-- Div section-->
+    <div class = "outer-content">
+          <div class ="inner-content" >Some content</div>    
+    </div>
+      
+      <!--form Section -->
+    <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method= "get">
+        <fieldset>
+            <legend>Some GET data:</legend>
+            
+            <div class="input-field">
+                <label>Name:</label>
+                <input type="text" name="text_input" size="30" maxlength="100"/>
+            </div>
+           
+            <div class="input-field">
+                <label>Number:</label>
+                <input type="number" name="numerical_input" size="30" maxlength="100"/>
+            </div>
+            
+            <div class="input-field">
+                <label>Password:</label>
+                <input type="password" name="password_input" size="30" maxlength="100"/>
+            </div>
+            
+            <div class="input-field">
+                <p>Select behavior:
+                    <br/>
+                    <label>
+                    <input type="radio" name="candy" value="Snickers"/>Snickers</label>
+                    <br/>
+                    <label>
+                    <input type="radio" name="candy" value="Skittles"/>Skittles</label>
+                    <br/>
+                    <label>
+                    <input type="radio" name="candy" value="Mentos"/>Mentos</label>
+                </p>
+            </div>
+            
+            <br/>
+            <input type="submit" value="Submit"/> 
+        </fieldset>
+        
+    </form>
+      
+    <br/>
+      <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method= "post">
+        <fieldset>
+            <legend>Some POST data:</legend>
+            
+            <div class="input-field">
+                <label>Name:</label>
+                <input type="text" name="text_input" size="30" maxlength="100"/>
+            </div>
+           
+            <div class="input-field">
+                <label>Number:</label>
+                <input type="number" name="numerical_input" size="30" maxlength="100"/>
+            </div>
+            
+            <div class="input-field">
+                <label>Password:</label>
+                <input type="password" name="password_input" size="30" maxlength="100"/>
+            </div>
+            
+            <div class="input-field">
+                <p>Select behavior:
+                    <br/>
+                    <label>
+                    <input type="radio" name="candy" value="Snickers"/>Snickers</label>
+                    <br/>
+                    <label>
+                    <input type="radio" name="candy" value="Skittles"/>Skittles</label>
+                    <br/>
+                    <label>
+                    <input type="radio" name="candy" value="Mentos"/>Mentos</label>
+                </p>
+            </div>
+            
+            <br/>
+            <input type="submit" value="Submit"/> 
+        </fieldset>
+        
+    </form>
+  </body>
+</html>
