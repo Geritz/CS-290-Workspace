@@ -1,0 +1,50 @@
+<!-- Filename: openWeatherAjax.html     Author: Spencer Moran   Date: 11/4/2016     Class: CS290 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Weather Check App</title>
+        <link rel= "stylesheet" type="text/css" href="style.css"> 
+    </head>
+    
+    <body>
+        <section id="weatherapp">
+            
+            <form>
+                <fieldset>
+                    <legend>Current Weather</legend> 
+                    <input type="text" name="cityName" id="cityName" placeholder= "Enter a City or zipcode">
+                    <input type="submit" id="citySubmit">                    
+                </fieldset>
+            </form>
+       
+        <div id="resultDiv">
+            <h2>Results:</h2>
+            
+            <ul>
+                <li>Input:  <span id="resIn"></span></li>
+                <li id="resOut">Output: 
+                    <ul>
+                        <li>City Name:  <span id="nameOut"></span></li>
+                        <li>Humidity: <span id="humidOut"></span></li>
+                        <li>Pressure: <span id="pressureOut"></span></li>
+                        <li>Temp:  <span id="tempOut"></span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </section>
+        <section id="postbin">
+            <legend>This form submits to http://httpbin.org/post</legend>
+            <form>
+                <fieldset>
+                    <input type="text" name="postBin" id="postBin" placeholder= "Submit to httpbin.org/post">
+                    <input type="submit" id="postSubmit">
+                </fieldset>
+            </form>
+            <div><span id= "postStatus"></span></div>
+        </section>
+    <script type= "text/javascript" src= "ajax.js"></script>
+    </body>
+    
+</html>
